@@ -8,6 +8,23 @@ module.exports = {
       'Montserrat':['Montserrat', 'sans-serif']
     },
     extend: {},
+    container:{
+      center:true,
+      padding:{
+        DEFAULT:'8px',
+        sm:'12px',
+        lg:'16px',
+        xl:'20px'
+      }
+    },
+    screens:{
+      'xs':'400px',
+      'sm':'576px',
+      'md':'768px',
+      'lg':'992px',
+      'xl':'1024px',
+      '2xl':'1240px'
+    }
   },
   plugins: [],
 }

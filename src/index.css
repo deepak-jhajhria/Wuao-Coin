@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .Orange-gradient{
+        @apply bg-gradient-to-r from-[#FFA53B] bg-clip-text to-[#FF983B]
+    }
+}
