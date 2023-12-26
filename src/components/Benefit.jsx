@@ -29,17 +29,17 @@ const Benefit = () => {
         }
     ]
     const CardComponents = CardValue.map((listing) => (
-        <div className='w-full my-[60px]' key={listing.id}>
-            <div style={{ backgroundImage: `url(${listing.bgImage})` }} className='w-full flex items-end justify-center bg-no-repeat bg-center min-h-[287px]'>
+        <div className='w-full lg:my-[60px]' key={listing.id}>
+            <div style={{ backgroundImage: `url(${listing.bgImage})` }} className='w-full flex items-end justify-center bg-no-repeat bg-center sm:min-h-[287px]'>
                 <img src={listing.Image1} alt={listing.Alt} />
             </div>
-            <p className=' font-Montserrat text-base font-normal opacity-70 text-black max-w-[300px] mx-auto mt-5 text-center'>{listing.Para}</p>
+            <p className=' font-Montserrat text-base font-normal opacity-70 text-black max-w-[300px] mx-auto mt-3 sm:mt-5 text-center'>{listing.Para}</p>
         </div>
     ))
     return (
-        <div className='mt-10'>
-            <h2 className=' font-Montserrat text-[50px] text-[#32352C] font-bold text-center'>Benefits</h2>
-            <div className='grid grid-cols-3 items-center gap-5'>
+        <div className='mt-5 sm:mt-10'>
+            <h2 className=' font-Montserrat text-[22px] xs:text-2xl sm:text-[35px] lg:text-[50px]  text-[#32352C] font-bold text-center'>Benefits</h2>
+            <div className='grid md:grid-cols-2 xl:grid-cols-3 items-center gap-5 mt-5'>
                 {CardComponents}
             </div>
         </div>

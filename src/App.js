@@ -12,15 +12,15 @@ function App() {
   return (
     <div>
       <Header />
-      {/* <div className='container max-w-[1140px]'>
+      <div className='container max-w-[1140px]'>
         <Benefit />
       </div>
       <Whitepaper />
-      <Roadmap />
-      <PublicSec />
-      <Tokenomics />
-      <Partnership />
-      <Footer /> */}
+      {/* <Roadmap /> */}
+      {/* <PublicSec /> */}
+      {/* <Tokenomics /> */}
+      {/* <Partnership /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
