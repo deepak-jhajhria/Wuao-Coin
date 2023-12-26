@@ -14,7 +14,7 @@ module.exports = {
         DEFAULT:'8px',
         sm:'12px',
         lg:'16px',
-        xl:'20px'
+        xl:'0'
       }
     },
     screens:{
@@ -23,7 +23,7 @@ module.exports = {
       'md':'768px',
       'lg':'992px',
       'xl':'1024px',
-      '2xl':'1240px'
+      '2xl':'1280px'
     }
   },
   plugins: [],
