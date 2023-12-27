@@ -5,6 +5,7 @@ import BG3 from '../assets/icons/BGBenefit3.svg'
 import Iteme1 from '../assets/images/benefitimg1.png'
 import Iteme2 from '../assets/images/benefitimg2.png'
 import Iteme3 from '../assets/images/benefitimg3.png'
+import Iteme4 from '../assets/svg/benefit.svg'
 const Benefit = () => {
     const CardValue = [
         {
@@ -37,13 +38,16 @@ const Benefit = () => {
         </div>
     ))
     return (
-        <div className='container max-w-[1140px]'>
-            <div className='mt-5 sm:mt-9 lg:mt-[42px]'>
-                <h2 className=' font-Montserrat text-2xl sm:text-3xl md:text-4xl lg:text-[50px]  text-[#32352C] font-bold text-center'>Benefits</h2>
-                <div className='grid md:grid-cols-2 xl:grid-cols-3 items-center gap-5 mt-4 sm:mt-8 md:mt-12 lg:mt-[60px]'>
-                    {CardComponents}
+        <div className=' relative'>
+            <div className='container max-w-[1140px]'>
+                <div className='mt-5 sm:mt-9 lg:mt-[42px]'>
+                    <h2 className=' font-Montserrat text-2xl sm:text-3xl md:text-4xl lg:text-[50px]  text-[#32352C] font-bold text-center'>Benefits</h2>
+                    <div className='grid md:grid-cols-2 xl:grid-cols-3 items-center gap-5 mt-4 sm:mt-8 md:mt-12 lg:mt-[60px]'>
+                        {CardComponents}
+                    </div>
                 </div>
             </div>
+            <div className=' absolute bottom-4 left-4 max-2xl:hidden'><img src={Iteme4} alt="" /></div>
         </div>
     )
 }

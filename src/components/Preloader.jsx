@@ -2,7 +2,7 @@ import React from 'react'
 
 const Preloader = () => {
     return (
-        <div className='bg-[#FFAF3B] min-h-screen w-full'>
+        <div className='bg-[url(./assets/images/headerBG.png)] min-h-screen w-full'>
             <span><svg className=' fixed top-[30%] left-1/2 -translate-x-1/2 translate-y-1/2 h-40 w-40' viewBox="0 0 100 100">
                 <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
                     <path d="M 21 40 V 59">
