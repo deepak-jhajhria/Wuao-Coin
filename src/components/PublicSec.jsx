@@ -1,6 +1,16 @@
+import { useEffect, useState } from "react"
 import CommonBtn from "./CommonBtn"
 
 const PublicSec = () => {
+    const [count, setcount] = useState(59)
+    useEffect(() => { 
+        if (count >0) {
+            setTimeout(()=>{
+                setcount((count)=>count-1)
+            },1000)
+        }
+        return () => { console. clear(); }
+     });
     return (
         <div className='bg-[url(./assets/icons/publicSecBg.svg)] bg-no-repeat bg-cover py-10 md:py-14 lg:py-[85px]'>
             <div className="max-w-[530px] mx-auto flex flex-col items-center">
@@ -23,7 +33,7 @@ const PublicSec = () => {
                     <span className="flex font-Montserrat font-normal  text-xl sm:text-3xl md:text-4xl lg:text-[50px]  text-white mx-2 sm:mx-[14px] mt-2">:</span>
                     <div className="flex flex-col">
                         <div className="flex items-center">
-                            <p className="py-2 px-3 sm:py-[10px] sm:px-5 border border-white rounded-xl text-white font-Montserrat font-bold text-2xl sm:text-3xl md:text-4xl lg:text-[50px]  flex items-center">37</p>
+                            <p className="py-2 px-3 sm:py-[10px] sm:px-5 border border-white rounded-xl text-white font-Montserrat font-bold text-2xl sm:text-3xl md:text-4xl lg:text-[50px]  flex items-center">{count}</p>
                         </div>
                         <p className="text-base sm:text-lg font-medium font-Montserrat mt-[5px] text-center text-white">Second</p>
                     </div>
