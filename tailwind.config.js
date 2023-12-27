@@ -14,7 +14,7 @@ module.exports = {
         DEFAULT:'8px',
         sm:'12px',
         lg:'16px',
-        xl:'0'
+        xl:'8px'
       }
     },
     screens:{
