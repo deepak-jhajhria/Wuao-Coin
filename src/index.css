@@ -6,7 +6,7 @@
     .Orange-gradient{
         @apply bg-gradient-to-r from-[#FFA53B] bg-clip-text to-[#FF983B]
     }
-    .mobileView{
-        @apply max-md:bg-orange-500 max-md:fixed max-md:top-0 max-md:w-1/4 max-md:h-1/2 max-md:bg-[url(./assets/icons/WhitePaperBG.svg)] max-md:flex-col max-md:items-center max-md:justify-center
+    .UnderLineHover{
+     @apply relative after:absolute after:h-[2px] after:rounded-full after:bg-[#FFAF3B] hover:text-[#FFAF3B] after:w-0 hover:after:w-full duration-300 after:-bottom-[2px] after:left-0 after:duration-300
     }
 }

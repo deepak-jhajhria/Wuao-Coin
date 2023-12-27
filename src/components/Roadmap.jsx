@@ -41,7 +41,7 @@ const Roadmap = () => {
     ]
 
     const Roadmapcomponents = RoadmapItems.map((listing) =>
-        <div className={`${listing.BackGround} rounded-xl px-3 py-2`}>
+        <div className={`${listing.BackGround} duration-300 hover:scale-105 hover:shadow-sm rounded-xl px-3 py-2`}>
             <p className=' font-Montserrat text-white font-bold text-xl sm:text-2xl md:text-3xl opacity-50'>{listing.Number}</p>
             <h2 className={`${listing.paddingLeft} font-Montserrat text-white font-bold text-base xl:text-lg 2xl:text-base  sm:text-lg lg:text-xl mt-5 mb-[15px]`}>{listing.heading}</h2>
         </div>
