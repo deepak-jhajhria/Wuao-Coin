@@ -12,7 +12,7 @@ const WelcomeSec = () => {
                     <CommonBtn customClass="text-white !bg-transparent border border-white" text="Read Whitepaper" />
                 </div>
             </div>
-            <img className="w-full 2xl:ml-[70px]" src={Sec1Img} alt="img" />
+            <img className="w-full 2xl:mb-7 2xl:ml-[70px]" src={Sec1Img} alt="img" />
         </div>
     )
 }
