@@ -9,7 +9,7 @@ const Nav = () => {
         setshow(!show)
     }
     return (
-        <nav className='py-3 xs:py-4 sm:py-5 md:py-6 lg:py-7 xl:py-9'>
+        <nav className='py-3 xs:py-4 sm:py-5 md:py-[23px]'>
             <div className="flex items-center justify-between">
                 <img className='max-sm:w-[150px] max-xs:w-[140px]' src={logo} alt="logo" />
                 <div className='flex items-center'>
