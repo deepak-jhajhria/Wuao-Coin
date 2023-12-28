@@ -101,3 +101,6 @@
 [data-tooltip=""]::before {
   display: none !important;
 }
+*{
+  scroll-behavior: smooth;
+}

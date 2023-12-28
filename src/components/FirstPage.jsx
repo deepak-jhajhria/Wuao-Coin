@@ -1,3 +1,4 @@
+import BackToTop from './BackToTop';
 import Benefit from './Benefit';
 import Footer from './Footer';
 import Header from './Header';
@@ -17,6 +18,7 @@ const FirstPage = () => {
             <Tokenomics />
             <Partnership />
             <Footer />
+            <BackToTop />
         </div>
     )
 }
