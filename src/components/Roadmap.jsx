@@ -54,7 +54,7 @@ const Roadmap = () => {
                 <div className='max-w-[672px] flex flex-col text justify-center items-center mx-auto'>
                     <h2 className='font-Montserrat text-[#32352C] font-bold text-center text-2xl sm:text-3xl md:text-4xl lg:text-[50px] '>RoadMap</h2>
                     <p className='font-Montserrat text-black opacity-70 font-normal text-center text-base sm:text-lg mt-[18px]'>Knowing our values, understanding the business idea and then, gradually, presenting the plans to the public is our way of doing things.</p>
-                    <img className='mt-4 sm:mt-8 md:mt-10 lg:mt-[75px]' src={roadmapImg} alt="roadmap image" />
+                    <img className='mt-4 sm:mt-8 md:mt-10 lg:mt-[75px]' src={roadmapImg} alt="roadmap" />
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 2xl:gap-8 my-4 sm:my-6 md:my-10 lg:my-14">{Roadmapcomponents}</div>
             </div>

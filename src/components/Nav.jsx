@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import logo from '../assets/images/logo.png'
 import { Link, useLocation } from 'react-router-dom'
-import { DiscordIcon, discordIcon, LinkDinIcon, TelegramIcon, TwitterIcon } from './Icons'
+import { DiscordIcon, LinkDinIcon, TelegramIcon, TwitterIcon } from './Icons'
 const Nav = () => {
     const location = useLocation();
     const [show, setshow] = useState(true)
-    function openNav() {
-        setshow(!show)
-    }
+    // function openNav() {
+    //     setshow(!show)
+    // }
     return (
         <nav className='py-3 xs:py-4 sm:py-5 md:py-[23px]'>
             <div className="flex items-center justify-between">

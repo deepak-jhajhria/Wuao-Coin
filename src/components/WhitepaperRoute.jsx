@@ -1,5 +1,4 @@
 import React from 'react'
-import Whitepaper from './Whitepaper'
 import Nav from './Nav'
 import Tokenomics from './Tokenomics'
 

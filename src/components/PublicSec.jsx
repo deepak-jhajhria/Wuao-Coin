@@ -8,9 +8,9 @@ const PublicSec = () => {
             setTimeout(()=>{
                 setcount((count)=>count-1)
             },1000)
+            return () => { console. clear(); }
         }
-        return () => { console. clear(); }
-     });
+    });
     return (
         <div className='bg-[url(./assets/icons/publicSecBg.svg)] bg-no-repeat bg-cover py-10 md:py-14 lg:py-[85px]'>
             <div className="max-w-[530px] mx-auto flex flex-col items-center">
