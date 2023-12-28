@@ -18,7 +18,7 @@ function WidthDisplay() {
   }, []);
 
   return (
-    <div className=' fixed top-0 left-1/2 w-full'>
+    <div className=' fixed top-0 left-1/2 w-full z-30'>
       <p id='widthElement'>{width}px</p>
     </div>
   );
