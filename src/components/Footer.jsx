@@ -1,6 +1,7 @@
 import logo from '../assets/images/logo.png'
 import Image1 from '../assets/images/headerPositionImgleft.png'
 import Image2 from '../assets/images/headerPositionImgright.png'
+import Image3 from '../assets/svg/footer3.svg'
 const Footer = () => {
     return (
         <div className='relative'>
@@ -54,6 +55,7 @@ const Footer = () => {
             </div>
             <div className=' -z-10 absolute -top-1/2 left-0'><img src={Image1} alt="image1" /></div>
             <div className=' -z-10 absolute bottom-0 right-0'><img src={Image2} alt="image1" /></div>
+            <div className=' -z-10 absolute bottom-0 left-[30%] max-sm:hidden'><img src={Image3} alt="image3" /></div>
             <p className='text-[#32352C] font-Montserrat font-normal text-xs sm:text-base leading-6 text-center opacity-60 py-3 sm:py-4 md:py-5 lg:py-[25px] border-[#9F9F9F] border-t'>© Copyright 2022 - Wuaocoin</p>
         </div>
     )

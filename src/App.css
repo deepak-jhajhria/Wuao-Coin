@@ -1,92 +1,103 @@
 /* Firefox */
 * {
-    scrollbar-width: thin;
-    scrollbar-color: #FFAF3B #DFE9EB;
-  }
-  
-  /* Chrome, Edge and Safari */
-  *::-webkit-scrollbar {
-    height: 10px;
-    width: 10px;
-  }
-  *::-webkit-scrollbar-track {
-    border-radius: 5px;
-    background-color: #DFE9EB;
-  }
-  
-  *::-webkit-scrollbar-track:hover {
-    background-color: #B8C0C2;
-  }
-  
-  *::-webkit-scrollbar-track:active {
-    background-color: #B8C0C2;
-  }
-  
-  *::-webkit-scrollbar-thumb {
-    border-radius: 5px;
-    background-color: #FFAF3B;
-  }
-  
-  *::-webkit-scrollbar-thumb:hover {
-    background-color: #FFAF3B;
-  }
-  
-  *::-webkit-scrollbar-thumb:active {
-    background-color: #FFAF3B;
-  }
-  [data-tooltip] {
-    position: relative;
-    cursor: pointer;
-  }
-  [data-tooltip]:before,
-  [data-tooltip]:after {
-    line-height: 1;
-    font-size: .9em;
-    pointer-events: none;
-    position: absolute;
-    box-sizing: border-box;
-    display: none;
-    opacity: 0;
-    filter: drop-shadow(1px -1px 4px #FFB13D);
-  }
-  [data-tooltip]:before {
-    content: "";
-    border: 5px solid transparent;
-    z-index: 100;
-  }
-  [data-tooltip]:after {
-    content: attr(data-tooltip);
-    text-align: center;
-    min-width: 3em;
-    max-width: 21em;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding: 13px 13px;
-    border-radius: 25px;
-    background: #FDFFF7;
-    color: #FFAF3B;
-    z-index: 99;
-  }
-  [data-tooltip]:hover:before,
-  [data-tooltip]:hover:after {
-    display: block;
-    opacity: 1;
-  }
-  [data-tooltip][data-flow="bottom"]::before {
-    top: 100%;
-    border-top-width: 0;
-    border-bottom-color: #FDFFF7;
-  }
-  [data-tooltip][data-flow="bottom"]::after {
-    top: calc(100% + 5px);
-  }
-  [data-tooltip][data-flow="bottom"]::before, [data-tooltip][data-flow="bottom"]::after {
-    left: 50%;
-    -webkit-transform: translate(-50%, 8px);
-            transform: translate(-50%, 8px);
-  }
-  [data-tooltip=""]::after, [data-tooltip=""]::before {
-    display: none !important;
-  }
-  
+  scrollbar-width: thin;
+  scrollbar-color: #FFAF3B #DFE9EB;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #DFE9EB;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #FFAF3B;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #FFAF3B;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #FFAF3B;
+}
+
+[data-tooltip] {
+  position: relative;
+  cursor: pointer;
+}
+
+[data-tooltip]:before,
+[data-tooltip]:after {
+  line-height: 1;
+  font-size: .9em;
+  pointer-events: none;
+  position: absolute;
+  box-sizing: border-box;
+  display: none;
+  opacity: 0;
+  filter: drop-shadow(1px -1px 4px #FFB13D);
+}
+
+[data-tooltip]:before {
+  content: "";
+  border: 5px solid transparent;
+  z-index: 100;
+}
+
+[data-tooltip]:after {
+  content: attr(data-tooltip);
+  text-align: center;
+  min-width: 3em;
+  max-width: 21em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 6px 10px;
+  border-radius: 25px;
+  background: #FDFFF7;
+  color: #FFAF3B;
+  z-index: 99;
+}
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  display: block;
+  opacity: 1;
+}
+
+[data-tooltip][data-flow="bottom"]::before {
+  top: 100%;
+  border-top-width: 0;
+  border-bottom-color: #FDFFF7;
+}
+
+[data-tooltip][data-flow="bottom"]::after {
+  top: calc(100% + 5px);
+}
+
+[data-tooltip][data-flow="bottom"]::before,
+[data-tooltip][data-flow="bottom"]::after {
+  left: 50%;
+  -webkit-transform: translate(-50%, 8px);
+  transform: translate(-50%, 8px);
+}
+
+[data-tooltip=""]::after,
+[data-tooltip=""]::before {
+  display: none !important;
+}

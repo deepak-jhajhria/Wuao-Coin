@@ -47,7 +47,7 @@ const Benefit = () => {
                     </div>
                 </div>
             </div>
-            <div className=' absolute bottom-4 left-4 max-2xl:hidden'><img src={Iteme4} alt="" /></div>
+            <div className=' absolute bottom-4 left-4 max-2xl:hidden -z-10'><img src={Iteme4} alt="" /></div>
         </div>
     )
 }

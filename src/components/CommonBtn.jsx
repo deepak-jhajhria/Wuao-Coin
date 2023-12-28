@@ -3,7 +3,7 @@ import React from 'react'
 const CommonBtn = (props) => {
   return (
     <div>
-      <button className={`${props.customClass} text-orange-400 hover:shadow-[6px_4px_25px_0_rgba(229,156,62,0.34)] duration-300  hover:scale-95 rounded-full font-Montserrat text-xs sm:text-base font-semibold py-[11px]  px-[21px] bg-white`}>{props.text}</button>
+      <button className={`${props.customClass} text-orange-400 hover:shadow-[1px_0_10px_1px_rgba(254,255,254,0.8)] duration-300  hover:scale-95 rounded-full font-Montserrat text-xs sm:text-base font-semibold py-[11px]  px-[21px] bg-white`}>{props.text}</button>
     </div>
   )
 }

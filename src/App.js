@@ -3,9 +3,8 @@ import './App.css';
 import Preloader from './components/Preloader';
 import { Route, Routes } from 'react-router-dom';
 import FirstPage from './components/FirstPage';
-import Roadmap from './components/Roadmap';
-import Whitepaper from './components/Whitepaper';
 import WhitepaperRoute from './components/WhitepaperRoute';
+import WidthDisplay from './components/Width';
 
 function App() {
   const [screenLoading, setScreenLoading] = useState(false);
@@ -16,10 +15,11 @@ function App() {
     setTimeout(() => {
       setScreenLoading(false);
       document.body.classList.remove("overflow-hidden")
-    }, 3000);
+    }, 2000);
   }, []);
   return (
     <>
+      <WidthDisplay />
       {
         screenLoading ? (<Preloader />) : (<div>
           <Routes>
