@@ -4,7 +4,7 @@ import Preloader from './components/Preloader';
 import { Route, Routes } from 'react-router-dom';
 import FirstPage from './components/FirstPage';
 import WhitepaperRoute from './components/WhitepaperRoute';
-import WidthDisplay from './components/Width';
+// import WidthDisplay from './components/Width';
 
 function App() {
   const [screenLoading, setScreenLoading] = useState(false);
@@ -19,7 +19,7 @@ function App() {
   }, []);
   return (
     <>
-      <WidthDisplay />
+      {/* <WidthDisplay /> */}
       {
         screenLoading ? (<Preloader />) : (<div>
           <Routes>
