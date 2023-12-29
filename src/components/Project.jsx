@@ -13,7 +13,7 @@ import fivth from '../assets/images/cart/buyers.png'
 import fivthtext from '../assets/images/cart/buyerstext.png'
 const Project = () => {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 items-center pt-10 sm:pt-20 lg:pt-40 lg:min-h-[700px]'>
+        <div className='grid grid-cols-1 md:grid-cols-2 items-center pt-10 sm:pt-20 lg:pt-40 xl:pt-44 2xl:pt-40 lg:min-h-[700px]'>
             <div className='w-full h-full max-lg:hidden'>
                 <div className='relative pt-10 h-full left-10'>
                     <div className='absolute translate-x-1/2 translate-y-1/2 duration-300 '><img className='' src={Coin} alt="coin" /></div>

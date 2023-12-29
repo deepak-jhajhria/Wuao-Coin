@@ -20,7 +20,7 @@ const Header = () => {
       </div>
       <img className='absolute top-0 w-full -z-30 h-[42%] md:h-[38%] xl:h-[75%]' src={bgimg} alt="bg" />
       <img className='absolute top-0 -z-20 max-xl:hidden' src={bglogo} alt="bg" />
-      <img className='absolute  xl:w-[60%] 2xl:w-[54%] max-xl:hidden xl:right-0 top-[8%]  -z-20' src={bgImage} alt="bg" />
+      <img className='absolute  xl:w-[60%] h-1/2 2xl:w-[54%] max-xl:hidden xl:right-0 top-[8%]  -z-20' src={bgImage} alt="bg" />
       {/* position svg  */}
       <img className=' absolute top-[10%] left-1/2 md:left-[43%] max-sm:hidden -z-10' src={header1} alt="svg" />
       <img className=' absolute top-[48%] left-[30px] -z-10' src={header2} alt="svg" />

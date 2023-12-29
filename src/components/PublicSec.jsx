@@ -12,7 +12,7 @@ const PublicSec = () => {
         }
     });
     return (
-        <div className='bg-[url(./assets/icons/publicSecBg.svg)] bg-no-repeat bg-cover py-10 md:py-14 lg:py-[85px]'>
+        <div className='bg-[url(./assets/icons/publicSecBg.svg)] w-full bg-no-repeat bg-cover py-10 md:py-14 lg:py-[85px]'>
             <div className="max-w-[530px] mx-auto flex flex-col items-center">
                 <h2 className=" font-Montserrat text-center font-bold text-xl sm:text-2xl md:text-[30px] text-white">Public Sale 5% in ERC20 & BEP20, 100% for the Community</h2>
                 <div className="flex mt-5 sm:mt-8 md:mt-10 lg:mt-14">
