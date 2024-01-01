@@ -3,6 +3,7 @@ import Image1 from '../assets/images/headerPositionImgleft.png'
 import Image2 from '../assets/images/headerPositionImgright.png'
 import Image3 from '../assets/svg/footer3.svg'
 const Footer = () => {
+    
     return (
         <div className='relative'>
             <div className='container max-w-screen-xl mb-5 sm:mb-8 md:mb-12 lg:my-[70px] mt-10 sm:mt-14 md:mt-20 lg:mt-[110px]'>
@@ -56,7 +57,7 @@ const Footer = () => {
             <div className=' -z-10 absolute -top-1/2 left-0'><img src={Image1} alt="image1" /></div>
             <div className=' -z-10 absolute bottom-0 right-0'><img src={Image2} alt="image1" /></div>
             <div className=' -z-10 absolute bottom-0 left-[30%] max-sm:hidden'><img src={Image3} alt="image3" /></div>
-            <p className='text-[#32352C] font-Montserrat font-normal text-xs sm:text-base leading-6 text-center opacity-60 py-3 sm:py-4 md:py-5 lg:py-[25px] border-[#9F9F9F] border-t'>© Copyright 2022 - Wuaocoin</p>
+            <p className='text-[#32352C] font-Montserrat font-normal text-xs sm:text-base leading-6 text-center opacity-60 py-3 sm:py-4 md:py-5 lg:py-[25px] border-[#9F9F9F] border-t'>© Copyright {(new Date().getFullYear())} - Wuaocoin</p>
         </div>
     )
 }
