@@ -18,7 +18,7 @@ function App() {
     }, 2000);
   }, []);
   return (
-    <>
+    <div className=' h-svh'>
       <WidthDisplay />
       {
         screenLoading ? (<Preloader />) : (<div>
@@ -30,7 +30,7 @@ function App() {
 
         </div>)
       }
-    </>
+    </div>
   );
 }
 
